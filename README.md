@@ -19,6 +19,7 @@ With the Fitcoin app, a Fitness Club can add new members. For active members, yo
 ![alt text](./static/images/Fitcoin-architecture.png "Fitcoin Architecture")
 
 # Flow
+
 ---
 1. Install Hyperledger Fabric and Composer
 2. Build and Deploy the Fitcoin Blockchain Network
@@ -128,6 +129,7 @@ Follow the instructions here to install Docker for Mac (stable): https://docs.do
 After running the installed Docker application you should have the whale icon in your menu bar, with a green “Docker is running” status.
 
 
+
 # Included components
 ---
 1. [Hyperledger Fabric and Hyperledger Composer]()
@@ -141,7 +143,6 @@ After running the installed Docker application you should have the whale icon in
 3. [Docker](https://www.docker.com/)
 4. [NVM](https://github.com/creationix/nvm/blob/master/README.md)
 5. [Apple Xcode](https://developer.apple.com/xcode/)
-
 
 # Steps
 ---
