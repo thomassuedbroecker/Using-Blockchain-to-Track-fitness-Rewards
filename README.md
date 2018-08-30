@@ -18,13 +18,14 @@ With the Fitcoin app, a Fitness Club can add new members. For active members, yo
 ---
 ![alt text](./static/images/Fitcoin-architecture.png "Fitcoin Architecture")
 
-## Flow
+# Flow
+
 ---
 1. Install Hyperledger Fabric and Composer
 2. Build and Deploy the Fitcoin Blockchain Network
 3. Build and run the Fitcoin Angular Web App
 
-## Pre-requisites
+# Pre-requisites
 ---
 1. At least 4Gb of memory
 2. Operating Systems: Ubuntu Linux 14.04 / 16.04 LTS (both 64-bit), or Mac OS 10.12
@@ -128,13 +129,14 @@ Follow the instructions here to install Docker for Mac (stable): https://docs.do
 After running the installed Docker application you should have the whale icon in your menu bar, with a green “Docker is running” status.
 
 
-## Included components
+
+# Included components
 ---
 1. [Hyperledger Fabric and Hyperledger Composer]()
 2. [Fitcoin Blockchain Network Archive]()
 3. [Fitcoin Angular Web App]()
 
-## Featured Technologies
+# Featured Technologies
 ---
 1. [Angular](https://angular.io/)
 2. [Node.js](https://nodejs.org/en/)
@@ -142,8 +144,7 @@ After running the installed Docker application you should have the whale icon in
 4. [NVM](https://github.com/creationix/nvm/blob/master/README.md)
 5. [Apple Xcode](https://developer.apple.com/xcode/)
 
-
-## Steps
+# Steps
 ---
 1. [Install Hyperledger Fabric and Composer](./fabric-dev-servers/README.md)
 2. [Build and deploy the Fitcoin Blockchain Network](./wolfpack-fitclub-fitcoin/README.md)
