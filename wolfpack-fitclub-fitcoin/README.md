@@ -156,6 +156,9 @@ Added schemas for all types to Loopback
 Web server listening at: http://localhost:3020
 Browse your REST API at http://localhost:3020/explorer
 ```
+The running **API explorer'':
+
+![hyperledger-composer-REST-server](../blob/master/static/images/hyperledger-composer-REST-server.png)
 
 ## Load some sample data
 
@@ -169,6 +172,8 @@ Open a **new terminal** and to run the transaction to create the sample demo, ru
 ```sh
 curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{"$class":"org.fitclub.fitcoin.SetupDemo"}' 'http://localhost:3020/api/SetupDemo'
 ```
+
+
 
 ## Test that the data loaded
 
