@@ -1,5 +1,10 @@
 # Using Blockchain to Track Fitness Rewards
 
+**Customized by my self**
+
+**Developer Pattern**
+![Developer Patter: Fitness Club Rewards points iot and retail integration](https://developer.ibm.com/patterns/fitness-club-rewards-points-iot-and-retail-integration/)
+
 This is a sample web application that uses a Hyperledger Fabric blockchain to track and trace fitness rewards.
 
 One of the biggest challenges Fitness Clubs face is maintaining members. It is always cheaper to keep a member than attract new members. To retain members, some clubs will offer loyalty programs, but oftentimes, those are ineffective because they may provide future free months or potentially offer a discount to friends and family. Sometimes, the program only rewards members when they refer friends to the club.
