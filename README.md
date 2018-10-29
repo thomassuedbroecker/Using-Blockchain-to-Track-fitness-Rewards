@@ -141,9 +141,10 @@ After running the installed Docker application you should have the whale icon in
 ---
 You have to follow the different readmes in this github project.
 
-1. [Hyperledger Fabric and Hyperledger Composer README](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fabric-dev-servers)
-2. [Fitcoin Blockchain Network Archive]()
-3. [Fitcoin Angular Web App]()
+1. [**Hyperledger Fabric and Hyperledger Composer** Follow these instructions to obtain the Hyperledger Composer development tools (primarily used to create Business Networks) and stand up a Hyperledger Fabric (primarily used to run/deploy your Business Networks locally). Note that the Business Networks you create can also be deployed to Hyperledger Fabric runtimes in other environments e.g. on a cloud platform.](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fabric-dev-servers)
+
+2. [Fitcoin Blockchain Network Archive](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/wolfpack-fitclub-fitcoin)
+3. [Fitcoin Angular Web App](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fitcoin-app)
 
 # Featured Technologies
 ---
