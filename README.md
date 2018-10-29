@@ -5,6 +5,22 @@
 **Developer Pattern**
 [Developer Patter: Fitness Club Rewards points iot and retail integration](https://developer.ibm.com/patterns/fitness-club-rewards-points-iot-and-retail-integration/)
 
+**Table of content**
+[1 Flow](#part01)
+[2 Technical Pre-requisites to run the sample locally](#part02)
+[2.1 Installing/setup pre-requisites](#part021)
+[2.1.1 Ubuntu](#part0211)
+[2.1.2 MacOS](#part0212)
+[2.1.2.1 Install nvm and Apple Xcode](#part02121)
+[2.1.3 Install Node (Ubuntu and Mac)](#part0213)
+[2.1.4 Install Docker (Ubuntu and Mac)](#part0214)
+[3 The Blockchain sample is based on three major components](#part03)
+[3.1 Featured Technologies in the Blockchain project](#part031)
+[4 Steps](#part04)
+[5 Links](#part05)
+[6 Learn more](#part06)
+[7 License](#part07)
+
 This is a sample **web application** that uses a Hyperledger Fabric **blockchain to track and trace fitness rewards**.
 
 One of the biggest challenges Fitness Clubs face is maintaining members. It is always cheaper to keep a member than attract new members. To retain members, some clubs will offer loyalty programs, but oftentimes, those are ineffective because they may provide future free months or potentially offer a discount to friends and family. Sometimes, the program only rewards members when they refer friends to the club.
@@ -23,7 +39,7 @@ With the Fitcoin app, a Fitness Club can add new members. For active members, yo
 ---
 ![alt text](./static/images/Fitcoin-architecture.png "Fitcoin Architecture")
 
-## Flow
+## 1 Flow  <a name="part01"></a>
 ---
 You will install on your local machine and run a sample web application.
 
@@ -31,7 +47,7 @@ You will install on your local machine and run a sample web application.
 2. Build and Deploy the **Fitcoin Blockchain** Network
 3. Build and run the **Fitcoin Angular Web App**
 
-## Technical Pre-requisites to run the sample locally
+## 2 Technical Pre-requisites to run the sample locally  <a name="part02"></a>
 ---
 
 1. At least **4Gb of memory**
@@ -43,12 +59,12 @@ You will install on your local machine and run a sample web application.
 7. **git:** 2.9.x or higher
 8. **Python:** 2.7.x
 
-## Installing/setup pre-requisites 
+### 2.1 Installing/setup pre-requisites  <a name="part021"></a>
 ---
 
 The following steps do contain the steps to install the given **technical pre-requisites** to run the sample locally on your PC.
 
-### Ubuntu
+#### 2.1.1 Ubuntu  <a name="part0211"></a>
 ---
 
 1. Login as a normal user, rather than root.
@@ -72,12 +88,12 @@ Next run the script - as this briefly uses sudo during its execution, you will b
 ./prereqs-ubuntu.sh
 ```
 
-### MacOS
+#### 2.1.2 MacOS  <a name="part0212"></a>
 ---
 
 **Note: Mac OS X version 10.12.6 was used for these instructions.**
 
-#### Install nvm and Apple Xcode
+##### 2.1.2.1 Install nvm and Apple Xcode  <a name="part02121"></a>
 ---
 
 First install nvm (the **Node version manager**). nvm is a tool that allows you to easily install, update and switch between versions of Node.js.
@@ -120,7 +136,7 @@ Check that nvm is installed and is accessible:
 nvm —-version
 ```
 
-### Install Node (Ubuntu and Mac)
+#### 2.1.3 Install Node (Ubuntu and Mac)  <a name="part0213"></a>
 ---
 Install the latest (long term support) version of Node:
 ```
@@ -135,7 +151,7 @@ Check that Node is installed:
 node --version
 ```
 
-### Install Docker (Ubuntu and Mac)
+#### 2.1.4 Install Docker (Ubuntu and Mac)  <a name="part0214"></a>
 ---
 Follow the instructions here to install Docker for Mac (stable): https://docs.docker.com/docker-for-mac/install/
 
@@ -143,49 +159,58 @@ After running the installed Docker application you should have the whale icon in
 
 
 
-# Included components to run the sample
+## 3 The Blockchain sample is based on three major components  <a name="part03"></a>
 ---
 You have to follow later the different readmes in this github project.
 
 1. [Hyperledger Fabric and Hyperledger Composer](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fabric-dev-servers)
 
-Follow these instructions to obtain the **Hyperledger Composer development tools** (primarily used to create Business Networks) and stand up a Hyperledger Fabric (primarily used to run/deploy your Business Networks **locally**). 
+This sub-project obtains the **Hyperledger Composer development tools** (primarily used to create Business Networks) and stand up a Hyperledger Fabric (primarily used to run/deploy your Business Networks **locally**). 
+
 _Note:_  The **Business Networks** you create can also be deployed to Hyperledger Fabric runtimes in other environments e.g. on a cloud platform.
 
 2. [Fitcoin Blockchain Network Archive](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/wolfpack-fitclub-fitcoin)
 
-This is the **definition** of the Hyperledger Fabric and Composer **blockchain network**. Hyperledger models consist of a few components.
+This sub-project includes the **definition** of the **Hyperledger Fabric** and **Composer blockchain network**. Hyperledger models consist of a few components.
 
 3. [Fitcoin Angular Web App](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fitcoin-app)
 
+In that sub-project  you can find the sample webapplication.
+
 The users will interact with the blockchain through a **web UI** written using **Node.js** and **Angular 2 (6.x)** framework.
 
-# Featured Technologies
+### 3.1 Featured Technologies in the Blockchain project  <a name="part031"></a>
 ---
+The following technologies are used to implement the sample application.
+
 1. [Angular](https://angular.io/)
 2. [Node.js](https://nodejs.org/en/)
 3. [Docker](https://www.docker.com/)
 4. [NVM](https://github.com/creationix/nvm/blob/master/README.md)
 5. [Apple Xcode](https://developer.apple.com/xcode/)
 
-# Steps
+
+## 4 Steps  <a name="part04"></a>
 ---
+This are the steps to setup the Blockchain sample.
+You have to follow the readme to each step.
+
 1. [Install Hyperledger Fabric and Composer](./fabric-dev-servers/README.md)
 2. [Build and deploy the Fitcoin Blockchain Network](./wolfpack-fitclub-fitcoin/README.md)
 3. [Build and run the Fitcoin Angular Web App](./fitcoin-app/README.md)
 
-# Links
+## 5 Links  <a name="part05"></a>
 ---
 * [IBM Blockchain - Marbles demo](https://github.com/IBM-Blockchain/marbles)
 * [Hyperledger Composer](https://hyperledger.github.io/composer/latest/index.html)
 
 
-# Learn more
+## 6 Learn more  <a name="part06"></a>
 ---
 * **Blockchain Code Patterns**: Enjoyed this Code Pattern? Check out our other [Blockchain Code Patterns](https://developer.ibm.com/code/technologies/blockchain/)
 
 * **Blockchain 101**: Learn why IBM believes that blockchain can transform businesses, industries – and even the world. [Blockchain 101](https://developer.ibm.com/code/technologies/blockchain/)
 
-# License
+## 7 License  <a name="part07"></a>
 ---
 [Apache 2.0](LICENSE)
