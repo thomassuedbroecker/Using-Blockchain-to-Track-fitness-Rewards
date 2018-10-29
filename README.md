@@ -28,24 +28,22 @@ If you want to play you should just use: [playground](https://www.ibm.com/develo
 
 This is a sample **web application** that uses a Hyperledger Fabric **blockchain to track and trace fitness rewards**.
 
-_Background/UseCase_
-
 One of the **biggest challenges Fitness Clubs face** is maintaining members. It is always cheaper to keep a member than attract new members. To retain members, some clubs will offer loyalty programs, but oftentimes, those are ineffective because they may provide future free months or potentially offer a discount to friends and family. Sometimes, the program only rewards members when they refer friends to the club.
 
-In order to make loyalty more effective, there are a few things that will improve the programs:
+In order to make **loyalty more effective**, there are a few things that will improve the programs:
 
 1. **Rewards for working** out incentivizes members to use the facilities
 2. **Ability to use their rewards more frequently** and for more valuable purchases
 3. **Visibility into their rewards lends trust** to the program
 
-With **Fitcoins**, we even add a new feature to loyalty programs, community building. By bringing local merchants into the program, we can facilitate commerce with those merchants that want to be affiliated with the club loyalty program. This provides an easy way for members to transact with the stores using digital currency. The store owners benefit by getting access to customers they may not have had. As the store owners earn Fitcoins through purchases, those Fitcoins could potentially be exchanged for cash from the club or used to maybe purchase advertising at the club. This creates a whole ecosystem around the club and a sense of community.
+With **Fitcoins**, we even add a new feature to **loyalty programs**, community building. By bringing local merchants into the program, we can facilitate commerce with those merchants that want to be affiliated with the club loyalty program. This provides an easy way for members to transact with the stores using digital currency. The store owners benefit by getting access to customers they may not have had. As the store owners earn Fitcoins through purchases, those Fitcoins could potentially be exchanged for cash from the club or used to maybe purchase advertising at the club. This creates a whole ecosystem around the club and a sense of community.
 
 _Functionality of the Fitcoin app_
 
 With the **Fitcoin app**, a Fitness Club can **add new members**. 
 
 For active members you can:
-* **simulate** those members **receiving rewards points**
+*  **simulate** those members **receiving rewards points**
 *  **redeeming rewards points**
 *  **viewing their rewards** points history. 
 
@@ -69,8 +67,10 @@ The **fitcoin webappliction**, **Hyperledger Composer REST Server** and **Wolfpa
 
 ![alt text](./static/images/Fitcoin-architecture.png "Fitcoin Architecture")
 
-## 1 Flow  <a name="part01"></a>
 ---
+
+## 1 Flow  <a name="part01"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 You will install on your local machine and run a sample web application.
@@ -79,8 +79,10 @@ You will install on your local machine and run a sample web application.
 2. Build and Deploy the **Fitcoin Blockchain** Network
 3. Build and run the **Fitcoin Angular Web App**
 
-## 2 Technical Pre-requisites to run the sample locally  <a name="part02"></a>
 ---
+
+## 2 Technical Pre-requisites to run the sample locally  <a name="part02"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 1. At least **4Gb of memory**
@@ -92,14 +94,18 @@ You will install on your local machine and run a sample web application.
 7. **git:** 2.9.x or higher
 8. **Python:** 2.7.x
 
-### 2.1 Installing/setup pre-requisites  <a name="part021"></a>
 ---
+
+### 2.1 Installing/setup pre-requisites  <a name="part021"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 The following steps do contain the steps to install the given **technical pre-requisites** to run the sample locally on your PC.
 
-#### 2.1.1 Ubuntu  <a name="part0211"></a>
 ---
+
+#### 2.1.1 Ubuntu  <a name="part0211"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 1. Login as a normal user, rather than root.
