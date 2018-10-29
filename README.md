@@ -21,22 +21,31 @@
 * [6 Learn more](#part06)
 * [7 License](#part07)
 
+#Introduction/UseCase
+
 This is a sample **web application** that uses a Hyperledger Fabric **blockchain to track and trace fitness rewards**.
 
-One of the biggest challenges Fitness Clubs face is maintaining members. It is always cheaper to keep a member than attract new members. To retain members, some clubs will offer loyalty programs, but oftentimes, those are ineffective because they may provide future free months or potentially offer a discount to friends and family. Sometimes, the program only rewards members when they refer friends to the club.
+_Background_
+
+One of the **biggest challenges Fitness Clubs face** is maintaining members. It is always cheaper to keep a member than attract new members. To retain members, some clubs will offer loyalty programs, but oftentimes, those are ineffective because they may provide future free months or potentially offer a discount to friends and family. Sometimes, the program only rewards members when they refer friends to the club.
 
 In order to make loyalty more effective, there are a few things that will improve the programs:
 
-1. Rewards for working out incentivizes members to use the facilities
-2. Ability to use their rewards more frequently and for more valuable purchases
-3. Visibility into their rewards lends trust to the program
+1. **Rewards for working** out incentivizes members to use the facilities
+2. **Ability to use their rewards more frequently** and for more valuable purchases
+3. **Visibility into their rewards lends trust** to the program
 
-With Fitcoins, we even add a new feature to loyalty programs, community building. By bringing local merchants into the program, we can facilitate commerce with those merchants that want to be affiliated with the club loyalty program. This provides an easy way for members to transact with the stores using digital currency. The store owners benefit by getting access to customers they may not have had. As the store owners earn Fitcoins through purchases, those Fitcoins could potentially be exchanged for cash from the club or used to maybe purchase advertising at the club. This creates a whole ecosystem around the club and a sense of community.
+With **Fitcoins**, we even add a new feature to loyalty programs, community building. By bringing local merchants into the program, we can facilitate commerce with those merchants that want to be affiliated with the club loyalty program. This provides an easy way for members to transact with the stores using digital currency. The store owners benefit by getting access to customers they may not have had. As the store owners earn Fitcoins through purchases, those Fitcoins could potentially be exchanged for cash from the club or used to maybe purchase advertising at the club. This creates a whole ecosystem around the club and a sense of community.
 
-With the Fitcoin app, a Fitness Club can add new members. For active members, you can simulate those members receiving rewards points, redeeming rewards points, and viewing their rewards points history. Clubs can also deactivate members to simulate members cancelling their memberships, something we hope never happens.
-
-
+With the **Fitcoin app**, a Fitness Club can add new members. For active members, you can simulate those members receiving rewards points, redeeming rewards points, and viewing their rewards points history. Clubs can also deactivate members to simulate members cancelling their memberships, something we hope never happens.
 ---
+
+**Architecture**
+
+The following images shows the architecture of the Fitcoin system, based on Blockchain.
+
+The **fitcoin webappliction**, **Hyperledger Composer REST Server** and **Wolfpack Fitclub Fitcoin Hyperledger Fabric Network**.
+
 ![alt text](./static/images/Fitcoin-architecture.png "Fitcoin Architecture")
 
 ## 1 Flow  <a name="part01"></a>
@@ -171,13 +180,15 @@ After running the installed Docker application you should have the whale icon in
 
 ## 3 The Blockchain sample is based on three major components  <a name="part03"></a>
 ---
+[->](#part01)
+
 You have to follow later the different readmes in this github project.
 
 1. [Hyperledger Fabric and Hyperledger Composer](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fabric-dev-servers)
 
 This sub-project obtains the **Hyperledger Composer development tools** (primarily used to create Business Networks) and stand up a Hyperledger Fabric (primarily used to run/deploy your Business Networks **locally**). 
 
-_Note:_  The **Business Networks** you create can also be deployed to Hyperledger Fabric runtimes in other environments e.g. on a cloud platform.
+_Note:_  The **Business Networks** you create can also be deployed to **Hyperledger Fabric runtimes** in other environments e.g. on a cloud platform.
 
 2. [Fitcoin Blockchain Network Archive](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/wolfpack-fitclub-fitcoin)
 
