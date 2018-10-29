@@ -41,6 +41,7 @@ With the Fitcoin app, a Fitness Club can add new members. For active members, yo
 
 ## 1 Flow  <a name="part01"></a>
 ---
+[->](#part01)
 You will install on your local machine and run a sample web application.
 
 1. **Install Hyperledger Fabric** and **Composer**
@@ -49,6 +50,7 @@ You will install on your local machine and run a sample web application.
 
 ## 2 Technical Pre-requisites to run the sample locally  <a name="part02"></a>
 ---
+[->](#part01)
 
 1. At least **4Gb of memory**
 2. Operating Systems: Ubuntu Linux 14.04 / 16.04 LTS (both 64-bit), or Mac OS 10.12
@@ -61,11 +63,13 @@ You will install on your local machine and run a sample web application.
 
 ### 2.1 Installing/setup pre-requisites  <a name="part021"></a>
 ---
+[->](#part01)
 
 The following steps do contain the steps to install the given **technical pre-requisites** to run the sample locally on your PC.
 
 #### 2.1.1 Ubuntu  <a name="part0211"></a>
 ---
+[->](#part01)
 
 1. Login as a normal user, rather than root.
 2. Do not su to root.
@@ -90,11 +94,13 @@ Next run the script - as this briefly uses sudo during its execution, you will b
 
 #### 2.1.2 MacOS  <a name="part0212"></a>
 ---
+[->](#part01)
 
 **Note: Mac OS X version 10.12.6 was used for these instructions.**
 
 ##### 2.1.2.1 Install nvm and Apple Xcode  <a name="part02121"></a>
 ---
+[->](#part01)
 
 First install nvm (the **Node version manager**). nvm is a tool that allows you to easily install, update and switch between versions of Node.js.
 
@@ -138,6 +144,8 @@ nvm —-version
 
 #### 2.1.3 Install Node (Ubuntu and Mac)  <a name="part0213"></a>
 ---
+[->](#part01)
+
 Install the latest (long term support) version of Node:
 ```
 nvm install --lts
@@ -153,6 +161,8 @@ node --version
 
 #### 2.1.4 Install Docker (Ubuntu and Mac)  <a name="part0214"></a>
 ---
+[->](#part01)
+
 Follow the instructions here to install Docker for Mac (stable): https://docs.docker.com/docker-for-mac/install/
 
 After running the installed Docker application you should have the whale icon in your menu bar, with a green “Docker is running” status.
@@ -181,6 +191,8 @@ The users will interact with the blockchain through a **web UI** written using *
 
 ### 3.1 Featured Technologies in the Blockchain project  <a name="part031"></a>
 ---
+[->](#part01)
+
 The following technologies are used to implement the sample application.
 
 1. [Angular](https://angular.io/)
@@ -192,6 +204,8 @@ The following technologies are used to implement the sample application.
 
 ## 4 Steps  <a name="part04"></a>
 ---
+[->](#part01)
+
 This are the steps to setup the Blockchain sample.
 You have to follow the readme to each step.
 
@@ -201,16 +215,22 @@ You have to follow the readme to each step.
 
 ## 5 Links  <a name="part05"></a>
 ---
+[->](#part01)
+
 * [IBM Blockchain - Marbles demo](https://github.com/IBM-Blockchain/marbles)
 * [Hyperledger Composer](https://hyperledger.github.io/composer/latest/index.html)
 
 
 ## 6 Learn more  <a name="part06"></a>
 ---
+[->](#part01)
+
 * **Blockchain Code Patterns**: Enjoyed this Code Pattern? Check out our other [Blockchain Code Patterns](https://developer.ibm.com/code/technologies/blockchain/)
 
 * **Blockchain 101**: Learn why IBM believes that blockchain can transform businesses, industries – and even the world. [Blockchain 101](https://developer.ibm.com/code/technologies/blockchain/)
 
 ## 7 License  <a name="part07"></a>
 ---
+[->](#part01)
+
 [Apache 2.0](LICENSE)
