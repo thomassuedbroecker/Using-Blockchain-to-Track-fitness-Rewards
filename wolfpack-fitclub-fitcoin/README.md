@@ -62,7 +62,6 @@ composer network install --archiveFile wolfpack-fitclub-fitcoin.bna --card PeerA
 This should be the result.
 
 ```sh
-dist thomassuedbroecker$ composer network install --archiveFile wolfpack-fitclub-fitcoin.bna --card PeerAdmin@hlfv1
 ✔ Installing business network. This may take a minute...
 Successfully installed business network wolfpack-fitclub-fitcoin, version 0.0.2
 
@@ -142,8 +141,20 @@ Command succeeded
 For the next step, we need the blockchain network accessible via REST API's. The Composer REST Server generates a set of API's based on the Composer Model.
 
 From the command line, enter
-```
+```sh
 composer-rest-server -p 3020 -c admin@wolfpack-fitclub-fitcoin -n never
+```
+
+The result should look like this.
+
+```sh
+Swagger: skipping unknown type "ReceiveFitcoins".
+Swagger: skipping unknown type "RedeemFitcoins".
+Swagger: skipping unknown type "ReceiveFitcoins".
+Swagger: skipping unknown type "RedeemFitcoins".
+Added schemas for all types to Loopback
+Web server listening at: http://localhost:3020
+Browse your REST API at http://localhost:3020/explorer
 ```
 
 ## Load some sample data
@@ -153,8 +164,9 @@ There is a transaction to setup the demo with some data including:
 2. A few members
 3. A few stores and products
 
-To run the transaction to create the sample demo, run the following command.
-```
+Open a **new terminal** and to run the transaction to create the sample demo, run the following command.
+
+```sh
 curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{"$class":"org.fitclub.fitcoin.SetupDemo"}' 'http://localhost:3020/api/SetupDemo'
 ```
 
@@ -162,16 +174,16 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
 
 Run the following command 
 
-```
+```sh
 curl -X GET --header 'Accept: application/json' 'http://localhost:3020/api/Member'
 ```
 
 You should see some data returned in a json format that should look something like this:
 
-```
+```sh
 [{"$class":"org.fitclub.fitcoin.Member","club":"resource:org.fitclub.fitcoin.Club#CLUB_001","memberStatus":"ACTIVE","personId":"MEMBER_001","personFirstName":"Chris","personLastName":"Tyler","fitCoinWallet":"resource:org.fitclub.fitcoin.FitcoinWallet#MEMBER_001"},{"$class":"org.fitclub.fitcoin.Member","club":"resource:org.fitclub.fitcoin.Club#CLUB_001","memberStatus":"ACTIVE","personId":"MEMBER_002","personFirstName":"Darrel","personLastName":"Pyle","fitCoinWallet":"resource:org.fitclub.fitcoin.FitcoinWallet#MEMBER_002"},{"$class":"org.fitclub.fitcoin.Member","club":"resource:org.fitclub.fitcoin.Club#CLUB_001","memberStatus":"ACTIVE","personId":"MEMBER_003","personFirstName":"Ashley","personLastName":"Troggio","fitCoinWallet":"resource:org.fitclub.fitcoin.FitcoinWallet#MEMBER_003"}]
 ```
 
-Congratulations! You now have a working Blockchain with data.
+**Congratulations!** You now have a working Blockchain with data.
 
 Now, you can [Build and run the Fitcoin Angular Web App](../fitcoin-app/README.md)
