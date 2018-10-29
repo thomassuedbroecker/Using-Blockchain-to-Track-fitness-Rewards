@@ -3,7 +3,7 @@
 **Customized by my self**
 
 **Developer Pattern**
-![Developer Patter: Fitness Club Rewards points iot and retail integration](https://developer.ibm.com/patterns/fitness-club-rewards-points-iot-and-retail-integration/)
+[Developer Patter: Fitness Club Rewards points iot and retail integration](https://developer.ibm.com/patterns/fitness-club-rewards-points-iot-and-retail-integration/)
 
 This is a sample web application that uses a Hyperledger Fabric blockchain to track and trace fitness rewards.
 
@@ -26,20 +26,22 @@ With the Fitcoin app, a Fitness Club can add new members. For active members, yo
 # Flow
 
 ---
-1. Install Hyperledger Fabric and Composer
-2. Build and Deploy the Fitcoin Blockchain Network
-3. Build and run the Fitcoin Angular Web App
+You will install on your local machine:
+
+1. **Install Hyperledger Fabric** and **Composer**
+2. Build and Deploy the **Fitcoin Blockchain** Network
+3. Build and run the **Fitcoin Angular Web App**
 
 # Pre-requisites
 ---
-1. At least 4Gb of memory
+1. At least **4Gb of memory**
 2. Operating Systems: Ubuntu Linux 14.04 / 16.04 LTS (both 64-bit), or Mac OS 10.12
-3. Docker Engine: Version 17.03 or higher
-4. Docker-Compose: Version 1.8 or higher
-5. Node: 8.9 or higher (note version 9 is not supported)
-6. npm: v5.x
-7. git: 2.9.x or higher
-8. Python: 2.7.x
+3. **Docker Engine:** Version 17.03 or higher
+4. **Docker-Compose:** Version 1.8 or higher**
+5. **Node:** 8.9 or higher (note version 9 is not supported)
+6. **npm:** v5.x
+7. **git:** 2.9.x or higher
+8. **Python:** 2.7.x
 
 ### Installing pre-requisites on Ubuntu
 ---
@@ -72,7 +74,7 @@ Next run the script - as this briefly uses sudo during its execution, you will b
 #### Install nvm and Apple Xcode
 ---
 
-First install nvm (the Node version manager). nvm is a tool that allows you to easily install, update and switch between versions of Node.js.
+First install nvm (the **Node version manager**). nvm is a tool that allows you to easily install, update and switch between versions of Node.js.
 
 Open the terminal (command line) by clicking on the magnifier in the menu bar at the top right of your screen. Type terminal and press enter.
 
@@ -84,7 +86,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | b
 
 More information on this script and the Node install process is available here.
 
-When you hit enter you should see the pop-up below, prompting you to install git. Press the Get Xcode button to install the full Apple Xcode IDE, including a C++ compiler, used to install native Node.js modules.
+When you hit enter you should see the pop-up below, prompting you to install git. Press the Get Xcode button to install the **full Apple Xcode IDE**, including a C++ compiler, used to install native Node.js modules.
 
 The download and install process for Xcode may take 20 minutes or more. Be patient!
 
@@ -98,7 +100,7 @@ Switch back to the terminal and create your bash profile (stores user preference
 touch .bash_profile
 ```
 
-Then rerun the original curl command:
+Then retrun the original curl command:
 
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
@@ -137,7 +139,9 @@ After running the installed Docker application you should have the whale icon in
 
 # Included components
 ---
-1. [Hyperledger Fabric and Hyperledger Composer]()
+You have to follow the different readmes in this github project.
+
+1. [Hyperledger Fabric and Hyperledger Composer README](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fabric-dev-servers)
 2. [Fitcoin Blockchain Network Archive]()
 3. [Fitcoin Angular Web App]()
 
