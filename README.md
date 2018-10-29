@@ -37,7 +37,7 @@ In order to make loyalty more effective, there are a few things that will improv
 
 With **Fitcoins**, we even add a new feature to loyalty programs, community building. By bringing local merchants into the program, we can facilitate commerce with those merchants that want to be affiliated with the club loyalty program. This provides an easy way for members to transact with the stores using digital currency. The store owners benefit by getting access to customers they may not have had. As the store owners earn Fitcoins through purchases, those Fitcoins could potentially be exchanged for cash from the club or used to maybe purchase advertising at the club. This creates a whole ecosystem around the club and a sense of community.
 
-_Functionality_
+_Functionality of the Fitcoin app_
 
 With the **Fitcoin app**, a Fitness Club can **add new members**. 
 
