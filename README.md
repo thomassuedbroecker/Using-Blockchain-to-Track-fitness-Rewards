@@ -1,11 +1,11 @@
 # Using Blockchain to Track Fitness Rewards
 
-**Customized by my self**
+**Customized by Thomas Suedbroecker**
 
 **Developer Pattern**
 [Developer Patter: Fitness Club Rewards points iot and retail integration](https://developer.ibm.com/patterns/fitness-club-rewards-points-iot-and-retail-integration/)
 
-This is a sample web application that uses a Hyperledger Fabric blockchain to track and trace fitness rewards.
+This is a sample **web application** that uses a Hyperledger Fabric **blockchain to track and trace fitness rewards**.
 
 One of the biggest challenges Fitness Clubs face is maintaining members. It is always cheaper to keep a member than attract new members. To retain members, some clubs will offer loyalty programs, but oftentimes, those are ineffective because they may provide future free months or potentially offer a discount to friends and family. Sometimes, the program only rewards members when they refer friends to the club.
 
@@ -23,17 +23,17 @@ With the Fitcoin app, a Fitness Club can add new members. For active members, yo
 ---
 ![alt text](./static/images/Fitcoin-architecture.png "Fitcoin Architecture")
 
-# Flow
-
+## Flow
 ---
-You will install on your local machine:
+You will install on your local machine and run a sample web application.
 
 1. **Install Hyperledger Fabric** and **Composer**
 2. Build and Deploy the **Fitcoin Blockchain** Network
 3. Build and run the **Fitcoin Angular Web App**
 
-# Pre-requisites
+## Technical Pre-requisites to run the sample locally
 ---
+
 1. At least **4Gb of memory**
 2. Operating Systems: Ubuntu Linux 14.04 / 16.04 LTS (both 64-bit), or Mac OS 10.12
 3. **Docker Engine:** Version 17.03 or higher
@@ -43,8 +43,14 @@ You will install on your local machine:
 7. **git:** 2.9.x or higher
 8. **Python:** 2.7.x
 
-### Installing pre-requisites on Ubuntu
+## Installing/setup pre-requisites 
 ---
+
+The following steps do contain the steps to install the given **technical pre-requisites** to run the sample locally on your PC.
+
+### Ubuntu
+---
+
 1. Login as a normal user, rather than root.
 2. Do not su to root.
 3. When installing prerequisites, use curl, then unzip using sudo.
@@ -66,7 +72,7 @@ Next run the script - as this briefly uses sudo during its execution, you will b
 ./prereqs-ubuntu.sh
 ```
 
-### Installing pre-requisites on MacOS
+### MacOS
 ---
 
 **Note: Mac OS X version 10.12.6 was used for these instructions.**
@@ -114,7 +120,7 @@ Check that nvm is installed and is accessible:
 nvm —-version
 ```
 
-### Install Node
+### Install Node (Ubuntu and Mac)
 ---
 Install the latest (long term support) version of Node:
 ```
@@ -129,7 +135,7 @@ Check that Node is installed:
 node --version
 ```
 
-### Install Docker
+### Install Docker (Ubuntu and Mac)
 ---
 Follow the instructions here to install Docker for Mac (stable): https://docs.docker.com/docker-for-mac/install/
 
@@ -137,14 +143,22 @@ After running the installed Docker application you should have the whale icon in
 
 
 
-# Included components
+# Included components to run the sample
 ---
-You have to follow the different readmes in this github project.
+You have to follow later the different readmes in this github project.
 
-1. [**Hyperledger Fabric and Hyperledger Composer** Follow these instructions to obtain the Hyperledger Composer development tools (primarily used to create Business Networks) and stand up a Hyperledger Fabric (primarily used to run/deploy your Business Networks locally). Note that the Business Networks you create can also be deployed to Hyperledger Fabric runtimes in other environments e.g. on a cloud platform.](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fabric-dev-servers)
+1. [Hyperledger Fabric and Hyperledger Composer](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fabric-dev-servers)
+
+Follow these instructions to obtain the **Hyperledger Composer development tools** (primarily used to create Business Networks) and stand up a Hyperledger Fabric (primarily used to run/deploy your Business Networks **locally**). 
+_Note:_  The **Business Networks** you create can also be deployed to Hyperledger Fabric runtimes in other environments e.g. on a cloud platform.
 
 2. [Fitcoin Blockchain Network Archive](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/wolfpack-fitclub-fitcoin)
+
+This is the **definition** of the Hyperledger Fabric and Composer **blockchain network**. Hyperledger models consist of a few components.
+
 3. [Fitcoin Angular Web App](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/tree/master/fitcoin-app)
+
+The users will interact with the blockchain through a **web UI** written using **Node.js** and **Angular 2 (6.x)** framework.
 
 # Featured Technologies
 ---
