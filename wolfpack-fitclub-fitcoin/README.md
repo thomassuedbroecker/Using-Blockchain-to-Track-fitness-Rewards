@@ -158,7 +158,7 @@ Browse your REST API at http://localhost:3020/explorer
 ```
 The running **API explorer'':
 
-![hyperledger-composer-REST-server](../blob/master/static/images/hyperledger-composer-REST-server.png)
+![hyperledger-composer-REST-server](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/blob/master/static/images/hyperledger-composer-REST-server.png)
 
 ## Load some sample data
 
