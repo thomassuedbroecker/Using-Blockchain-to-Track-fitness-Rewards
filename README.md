@@ -5,6 +5,8 @@
 **Developer Pattern**
 [Developer Patter: Fitness Club Rewards points iot and retail integration](https://developer.ibm.com/patterns/fitness-club-rewards-points-iot-and-retail-integration/)
 
+If you want to play you should just use: [playground](https://www.ibm.com/developerworks/cloud/library/cl-model-test-your-blockchain-network-with-hyperledger-composer-playground/index.html)
+
 **Table of content**
 * [0 Introduction/UseCase](#part00)
 * [1 Flow](#part01)
@@ -48,6 +50,14 @@ For active members you can:
 *  **viewing their rewards** points history. 
 
 Clubs can also **deactivate members** to simulate members cancelling their memberships, something we hope never happens.
+
+Here is a Use Case model to do an approach on a **simplified visualization** of the cto model file for the block chain of the fitcoin system.
+
+* **transaction** is represented as an UML use case
+* **participant** is represented as an UML actor
+* **UML association** do represent the dependency inside a transaction to a participant.
+
+![simplified visualization](./static/images/hyperledger-cto-fitcoins.png)
 
 ---
 
