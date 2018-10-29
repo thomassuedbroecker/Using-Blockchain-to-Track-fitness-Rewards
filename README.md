@@ -62,6 +62,7 @@ The **fitcoin webappliction**, **Hyperledger Composer REST Server** and **Wolfpa
 ## 1 Flow  <a name="part01"></a>
 ---
 [-> BACK to Introduction/UseCase](#part00)
+
 You will install on your local machine and run a sample web application.
 
 1. **Install Hyperledger Fabric** and **Composer**
@@ -228,7 +229,7 @@ The following technologies are used to implement the sample application.
 ---
 [-> BACK to Introduction/UseCase](#part00)
 
-This are the steps to setup the Blockchain sample.
+These are the steps to setup the Blockchain sample.
 You have to follow the readme to each step.
 
 1. [Install Hyperledger Fabric and Composer](./fabric-dev-servers/README.md)

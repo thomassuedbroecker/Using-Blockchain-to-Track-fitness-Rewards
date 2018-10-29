@@ -26,7 +26,7 @@ This is the definition of the Hyperledger Fabric and Composer blockchain network
 
 4. Query Files (.qry) which define the logic to access data from the blockchain. There is no direct query mechanism besides Query Files through Composer.
 
-This directory contains all of the appropriate files to buld the blockchain network archive which can be deployed to a Hyperledger Fabric / Composer environment.
+This directory contains all of the appropriate files to build the blockchain network archive which can be deployed to a Hyperledger Fabric / Composer environment.
 
 ## Before you begin
 ---
@@ -35,22 +35,59 @@ Make sure you have installed the required pre-requisites, following the instruct
 
 ## Build the network archive (bna file)
 ---
+
+Note: Ensure you have the **fabric-dev-servers** running, to install the network.
+
 From within the wolfpack-fitclub-fitcoin directory, run the following command:
 ```
+cd ./wolfpack-fitclub-fitcoin
 npm install
 ```
 This will install all of the necessary modules and will run the build script to build the network archive.
 
 The network archive will be placed in a ./wolfpack-fitclub-fitcoin/dist/ directory as wolfpack-fitclub-fitcoin.bna. 
 
+
 ## Deploy the blockchain business network archive
 ---
 In order to use the definition, it must be deployed to the Hyperledger Fabric engine. From the ./wolfpack-fitclub-fitcoin/dist directory, run the following commands.
 
-```
-composer network install --archiveFile wolfpack-fitclub-fitcoin.bna --card PeerAdmin@hlfv1
+* Install the network
 
+```sh
+cd ./wolfpack-fitclub-fitcoin/dist
+composer network install --archiveFile wolfpack-fitclub-fitcoin.bna --card PeerAdmin@hlfv1
+```
+
+This should be the result.
+
+```sh
+dist thomassuedbroecker$ composer network install --archiveFile wolfpack-fitclub-fitcoin.bna --card PeerAdmin@hlfv1
+✔ Installing business network. This may take a minute...
+Successfully installed business network wolfpack-fitclub-fitcoin, version 0.0.2
+
+Command succeeded
+```
+
+* Start the network
+
+```sh
 composer network start --networkName wolfpack-fitclub-fitcoin --networkVersion 0.0.2 --card PeerAdmin@hlfv1 --networkAdmin admin --networkAdminEnrollSecret adminpw
+```
+
+This should be the result.
+
+```sh
+Starting business network wolfpack-fitclub-fitcoin at version 0.0.2
+
+Processing these Network Admins: 
+	userName: admin
+
+✔ Starting business network definition. This may take a minute...
+Successfully created business network card:
+	Filename: admin@wolfpack-fitclub-fitcoin.card
+
+Command succeeded
 ```
 
 ## Create the Composer Card to connect to the network

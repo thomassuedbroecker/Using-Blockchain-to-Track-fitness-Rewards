@@ -54,7 +54,7 @@ From within the fabric-dev-servers directory, run the following command to start
 
 **If this is the first time starting the server, you will also need to run the following command to load the Admin card to the network.**
 ```
-./createPeerAdmin.sh
+./createPeerAdminCard.sh
 ```
 
 From within the fabric-dev-servers directory, run the following command to start the servers.
