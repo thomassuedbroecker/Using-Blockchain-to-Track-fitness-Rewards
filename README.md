@@ -51,7 +51,7 @@ For active members you can:
 
 Clubs can also **deactivate members** to simulate members cancelling their memberships, something we hope never happens.
 
-Here is a Use Case model to do an approach on a **simplified visualization** of the ![cto model file](./wolfpack-fitclub-fitcoin/models/ficlub.cto) of the fitcoin system. 
+Here is a Use Case model to do an approach on a **simplified visualization** of the ![cto model file](./wolfpack-fitclub-fitcoin/models/fitclub.cto) of the fitcoin system. 
 
 * **transaction** is represented as an UML use case
 * **participant** is represented as an UML actor
