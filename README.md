@@ -122,15 +122,18 @@ Next run the script - as this briefly uses sudo during its execution, you will b
 ```
 ./prereqs-ubuntu.sh
 ```
+---
 
 #### 2.1.2 MacOS  <a name="part0212"></a>
----
+
 [-> BACK to Introduction/UseCase](#part00)
 
 **Note: Mac OS X version 10.12.6 was used for these instructions.**
 
-##### 2.1.2.1 Install nvm and Apple Xcode  <a name="part02121"></a>
 ---
+
+##### 2.1.2.1 Install nvm and Apple Xcode  <a name="part02121"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 First install nvm (the **Node version manager**). nvm is a tool that allows you to easily install, update and switch between versions of Node.js.
@@ -173,8 +176,10 @@ Check that nvm is installed and is accessible:
 nvm —-version
 ```
 
-#### 2.1.3 Install Node (Ubuntu and Mac)  <a name="part0213"></a>
 ---
+
+#### 2.1.3 Install Node (Ubuntu and Mac)  <a name="part0213"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 Install the latest (long term support) version of Node:
@@ -190,18 +195,20 @@ Check that Node is installed:
 node --version
 ```
 
-#### 2.1.4 Install Docker (Ubuntu and Mac)  <a name="part0214"></a>
 ---
+
+#### 2.1.4 Install Docker (Ubuntu and Mac)  <a name="part0214"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 Follow the instructions here to install Docker for Mac (stable): https://docs.docker.com/docker-for-mac/install/
 
 After running the installed Docker application you should have the whale icon in your menu bar, with a green “Docker is running” status.
 
-
+---
 
 ## 3 The Blockchain sample is based on three major components  <a name="part03"></a>
----
+
 [-> BACK to Introduction/UseCase](#part00)
 
 You have to follow later the different readmes in this github project.
@@ -222,8 +229,10 @@ In that sub-project  you can find the sample webapplication.
 
 The users will interact with the blockchain through a **web UI** written using **Node.js** and **Angular 2 (6.x)** framework.
 
-### 3.1 Featured Technologies in the Blockchain project  <a name="part031"></a>
 ---
+
+### 3.1 Featured Technologies in the Blockchain project  <a name="part031"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 The following technologies are used to implement the sample application.
@@ -234,9 +243,10 @@ The following technologies are used to implement the sample application.
 4. [NVM](https://github.com/creationix/nvm/blob/master/README.md)
 5. [Apple Xcode](https://developer.apple.com/xcode/)
 
+---
 
 ## 4 Steps  <a name="part04"></a>
----
+
 [-> BACK to Introduction/UseCase](#part00)
 
 These are the steps to setup the Blockchain sample.
@@ -246,24 +256,33 @@ You have to follow the readme to each step.
 2. [Build and deploy the Fitcoin Blockchain Network](./wolfpack-fitclub-fitcoin/README.md)
 3. [Build and run the Fitcoin Angular Web App](./fitcoin-app/README.md)
 
-## 5 Links  <a name="part05"></a>
 ---
+
+## 5 Links  <a name="part05"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 * [IBM Blockchain - Marbles demo](https://github.com/IBM-Blockchain/marbles)
 * [Hyperledger Composer](https://hyperledger.github.io/composer/latest/index.html)
 
+---
 
 ## 6 Learn more  <a name="part06"></a>
----
+
 [-> BACK to Introduction/UseCase](#part00)
+
+---
 
 * **Blockchain Code Patterns**: Enjoyed this Code Pattern? Check out our other [Blockchain Code Patterns](https://developer.ibm.com/code/technologies/blockchain/)
 
+---
+
 * **Blockchain 101**: Learn why IBM believes that blockchain can transform businesses, industries – and even the world. [Blockchain 101](https://developer.ibm.com/code/technologies/blockchain/)
 
-## 7 License  <a name="part07"></a>
 ---
+
+## 7 License  <a name="part07"></a>
+
 [-> BACK to Introduction/UseCase](#part00)
 
 [Apache 2.0](LICENSE)
