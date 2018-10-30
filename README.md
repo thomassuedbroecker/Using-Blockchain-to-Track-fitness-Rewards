@@ -1,11 +1,15 @@
 # Using Blockchain to Track Fitness Rewards
 
+---
+
 **Customized by Thomas Suedbroecker**
 
-**Developer Pattern**
-[Developer Patter: Fitness Club Rewards points iot and retail integration](https://developer.ibm.com/patterns/fitness-club-rewards-points-iot-and-retail-integration/)
+**Code Pattern on IBM Developer**
+[Fitness Club Rewards points iot and retail integration](https://developer.ibm.com/patterns/fitness-club-rewards-points-iot-and-retail-integration/)
 
-If you want to play you should just use: [playground](https://www.ibm.com/developerworks/cloud/library/cl-model-test-your-blockchain-network-with-hyperledger-composer-playground/index.html)
+If you want to play with blockchain you should just use: [playground](https://www.ibm.com/developerworks/cloud/library/cl-model-test-your-blockchain-network-with-hyperledger-composer-playground/index.html)
+
+---
 
 **Table of content**
 * [0 Introduction/UseCase](#part00)
