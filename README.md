@@ -9,6 +9,9 @@ If you want to play you should just use: [playground](https://www.ibm.com/develo
 
 **Table of content**
 * [0 Introduction/UseCase](#part00)
+* [0.1 Functionality of the Fitcoin app](#part001)
+* [0.2 Hyperledger Composer Model](#part002)
+* [0.3 Architecture](#part003)
 * [1 Flow](#part01)
 * [2 Technical Pre-requisites to run the sample locally](#part02)
 * [2.1 Installing/setup pre-requisites](#part021)
@@ -24,6 +27,8 @@ If you want to play you should just use: [playground](https://www.ibm.com/develo
 * [6 Learn more](#part06)
 * [7 License](#part07)
 
+---
+
 # Introduction/UseCase <a name="part00"></a>
 
 This is a sample **web application** that uses a Hyperledger Fabric **blockchain to track and trace fitness rewards**.
@@ -38,7 +43,11 @@ In order to make **loyalty more effective**, there are a few things that will im
 
 With **Fitcoins**, we even add a new feature to **loyalty programs**, community building. By bringing local merchants into the program, we can facilitate commerce with those merchants that want to be affiliated with the club loyalty program. This provides an easy way for members to transact with the stores using digital currency. The store owners benefit by getting access to customers they may not have had. As the store owners earn Fitcoins through purchases, those Fitcoins could potentially be exchanged for cash from the club or used to maybe purchase advertising at the club. This creates a whole ecosystem around the club and a sense of community.
 
-## Functionality of the Fitcoin app
+---
+
+## Functionality of the Fitcoin app <a name="part001"></a>
+
+[-> BACK to Introduction/UseCase](#part00)
 
 With the **Fitcoin app**, a Fitness Club can:
 
@@ -51,7 +60,11 @@ With the **Fitcoin app**, a Fitness Club can:
 
 * Clubs can also **deactivate members** to simulate members cancelling their memberships, something we hope never happens.
 
-## Hyperledger Composer Model
+---
+
+[-> BACK to Introduction/UseCase](#part00)
+
+## Hyperledger Composer Model <a name="part003"></a>
 
 I using a **UML Use Case model** to do an approach for a  **simplified visualization** of the [cto model file](./wolfpack-fitclub-fitcoin/models/fitclub.cto) of the fitcoin system.
 
@@ -65,7 +78,7 @@ Here are my used/defined **UML** sterotypes:
 
 ---
 
-**Architecture**
+## Architecture <a name="part003"></a>
 
 The following image shows the architecture of the **Fitcoin system**, based on Blockchain.
 
