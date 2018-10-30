@@ -53,6 +53,10 @@ With **Fitcoins**, we even add a new feature to **loyalty programs**, community 
 
 [-> BACK to Introduction/UseCase](#part00)
 
+**Fitcoin web app**
+
+![fit coin webapp](./static/images/redeem-fitcoins-webapp.png "Fitcoin WebApp")
+
 With the **Fitcoin app**, a Fitness Club can:
 
 * **add new members**. 
@@ -76,7 +80,8 @@ Here are my used/defined **UML** sterotypes:
 
 * **transaction** is represented as an UML use case
 * **participant** is represented as an UML actor
-* **UML association** do represent the dependency inside an transaction to a participant.
+* **UML association** does represent the dependency inside an transaction to a participant.
+* **UML gernalization** does represent the extend for an participant.
 
 ![simplified visualization](./static/images/hyperledger-cto-fitcoins.png)
 
@@ -280,6 +285,8 @@ The following technologies are used to implement the sample application.
 
 These are the steps to setup the Blockchain sample.
 You have to follow the readme to each step.
+
+![fitcoin steps](./static/images/simple-fitcoins-steps.png "Fitcoin Steps")
 
 1. [Install Hyperledger Fabric and Composer](./fabric-dev-servers/README.md)
 2. [Build and deploy the Fitcoin Blockchain Network](./wolfpack-fitclub-fitcoin/README.md)
