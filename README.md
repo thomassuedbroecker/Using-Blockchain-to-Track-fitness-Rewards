@@ -38,16 +38,18 @@ In order to make **loyalty more effective**, there are a few things that will im
 
 With **Fitcoins**, we even add a new feature to **loyalty programs**, community building. By bringing local merchants into the program, we can facilitate commerce with those merchants that want to be affiliated with the club loyalty program. This provides an easy way for members to transact with the stores using digital currency. The store owners benefit by getting access to customers they may not have had. As the store owners earn Fitcoins through purchases, those Fitcoins could potentially be exchanged for cash from the club or used to maybe purchase advertising at the club. This creates a whole ecosystem around the club and a sense of community.
 
-_Functionality of the Fitcoin app_
+## Functionality of the Fitcoin app
 
-With the **Fitcoin app**, a Fitness Club can **add new members**. 
+With the **Fitcoin app**, a Fitness Club can:
 
-For active members you can:
-*  **simulate** those members **receiving rewards points**
-*  **redeeming rewards points**
-*  **viewing their rewards** points history. 
+* **add new members**. 
 
-Clubs can also **deactivate members** to simulate members cancelling their memberships, something we hope never happens.
+* For active members you can:
+  *  **simulate** those members **receiving rewards points**
+  *  **redeeming rewards points**
+  *  **viewing their rewards** points history. 
+
+* Clubs can also **deactivate members** to simulate members cancelling their memberships, something we hope never happens.
 
 Here is a Use Case model to do an approach on a **simplified visualization** of the [cto model file](./wolfpack-fitclub-fitcoin/models/fitclub.cto) of the fitcoin system. 
 
@@ -63,7 +65,7 @@ Here is a Use Case model to do an approach on a **simplified visualization** of 
 
 The following image shows the architecture of the **Fitcoin system**, based on Blockchain.
 
-The **fitcoin webappliction**, **Hyperledger Composer REST Server** and **Wolfpack Fitclub Fitcoin Hyperledger Fabric Network**.
+The components **fitcoin webappliction**, **Hyperledger Composer REST Server** and **Wolfpack Fitclub Fitcoin Hyperledger Fabric Network**.
 
 ![alt text](./static/images/Fitcoin-architecture.png "Fitcoin Architecture")
 
