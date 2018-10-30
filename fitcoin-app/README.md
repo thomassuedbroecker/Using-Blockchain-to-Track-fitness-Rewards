@@ -41,7 +41,7 @@ From this application, you can do several things:
 ---
 
 Under the Club name and Club owner name (Alex Josephs), you can click the **Create a New Member** button.
-![alt text](../static/images/create-new-member.png "Createa New Member")
+![alt text](../static/images/create-new-member.png "Create a New Member")
 
 Enter the member's First and Last name and click Add Member
 

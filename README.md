@@ -121,6 +121,8 @@ You will install on your local machine and run a sample web application.
 6. **npm:** v5.x
 7. **git:** 2.9.x or higher
 8. **Python:** 2.7.x
+9. **Axios:** https://github.com/axios/axios
+10. **Type Script:** for the WebApplication
 
 ---
 
