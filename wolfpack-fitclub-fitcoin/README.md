@@ -2,29 +2,29 @@
 
 This is the definition of the Hyperledger Fabric and Composer blockchain network. Hyperledger models consist of a few components.
 
-1. Model Files (.cto) which contains the definition of the following: 
+1. **Model Files** (.cto) which contains the definition of the following: 
     
-    a. Assets - the items that are owned and traded
+    a. **Assets** - the items that are owned and traded
 
-    b. Participants - the people or organizations that own and transact on assets
+    b. **Participants** - the people or organizations that own and transact on assets
 
-    c. Transactions - the structure of the data elements passed in on a transaction
+    c. **Transactions** - the structure of the data elements passed in on a transaction
 
-    d. Events - alerts or notifications that participants can subscribe to to know when things happen
+    d. **Events** - alerts or notifications that participants can subscribe to to know when things happen
 
-2. Script Files (.js) which contain the smart contract logic. In this case there are a few types of transactions with smart contracts
+2. **Script Files** (.js) which contain the **smart contract logic**. In this case there are a few types of transactions with smart contracts
 
-    a. AddMember - When a new member is added, they are given a seed of 100 Fitcoins and their status is set to Active
+    a. **AddMember** - When a new member is added, they are given a seed of 100 Fitcoins and their status is set to Active
 
-    b. Receive Fitcoins - When a member is being given Fitcoins, they must be active
+    b. **Receive Fitcoins** - When a member is being given Fitcoins, they must be active
 
-    c. Redeem Fitcoins - When a member is redeeming Fitcoins, they must be active and they must have a sufficient balance to redeem the requested Fitcoins
+    c. **Redeem Fitcoins** - When a member is redeeming Fitcoins, they must be active and they must have a sufficient balance to redeem the requested Fitcoins
 
-    d. Inactivate Member - When a member is inactivated, they are set to inactive and the system will not allow them to receive or redeem Fitcoins
+    d. **Inactivate Member** - When a member is inactivated, they are set to inactive and the system will not allow them to receive or redeem Fitcoins
 
-3. Permission Files (.acl) which define the security permissions. In this case, there are no permissions yet.
+3. **Permission Files** (.acl) which _define the security permissions_. In this case, there are no permissions yet.
 
-4. Query Files (.qry) which define the logic to access data from the blockchain. There is no direct query mechanism besides Query Files through Composer.
+4. **Query Files** (.qry) which define _the logic to access data_ from the blockchain. There is no direct query mechanism besides Query Files through Composer.
 
 This directory contains all of the appropriate files to build the blockchain network archive which can be deployed to a Hyperledger Fabric / Composer environment.
 
@@ -36,21 +36,23 @@ Make sure you have installed the required pre-requisites, following the instruct
 ## Build the network archive (bna file)
 ---
 
-Note: Ensure you have the **fabric-dev-servers** running, to install the network.
+_Note:_ Ensure you have the **fabric-dev-servers** running, to install the network.
 
-From within the wolfpack-fitclub-fitcoin directory, run the following command:
+From within the **wolfpack-fitclub-fitcoin** directory, run the following command:
+
 ```
 cd ./wolfpack-fitclub-fitcoin
 npm install
 ```
+
 This will install all of the necessary modules and will run the build script to build the network archive.
 
-The network archive will be placed in a ./wolfpack-fitclub-fitcoin/dist/ directory as wolfpack-fitclub-fitcoin.bna. 
+The network archive will be placed in a **./wolfpack-fitclub-fitcoin/dist/** directory as **wolfpack-fitclub-fitcoin.bna** file. 
 
 
 ## Deploy the blockchain business network archive
 ---
-In order to use the definition, it must be deployed to the Hyperledger Fabric engine. From the ./wolfpack-fitclub-fitcoin/dist directory, run the following commands.
+In order to use the definition, it must be deployed to the Hyperledger Fabric engine. From the **./wolfpack-fitclub-fitcoin/dist** directory, run the following commands.
 
 * Install the network
 
