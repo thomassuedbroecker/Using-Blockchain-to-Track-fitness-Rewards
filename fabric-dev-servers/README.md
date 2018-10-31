@@ -18,13 +18,15 @@ Make sure you have installed the required pre-requisites, following the instruct
 
 There are a few useful CLI tools for Composer developers. The most important one is composer-cli, which contains all the essential operations, so we'll install that first. Next, we'll also pick up composer-rest-server. Make sure to pick up version 0.20. This will not work with older versions.
 
-_Note:_ You *not* should use su or sudo for the following npm commands. Maybe also verify this commands. Using the right **node** version.
+_Note:_ 
+1. Maybe you should also verify with this commands: Do you use the right **node** version?
 ```sh
 touch .bash_profile
 nvm —-version
 nvm use --lts
 node --version
 ```
+2. You *not* should use su or sudo for the following npm commands. 
 
 1. Essential CLI tools:    
 ```sh

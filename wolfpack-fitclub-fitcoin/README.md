@@ -54,6 +54,14 @@ The network archive will be placed in a **./wolfpack-fitclub-fitcoin/dist/** dir
 ---
 In order to use the definition, it must be deployed to the Hyperledger Fabric engine. From the **./wolfpack-fitclub-fitcoin/dist** directory, run the following commands.
 
+_Note:_ Maybe you should also verify with this commands: Do you use the right **node** version?
+```sh
+touch .bash_profile
+nvm —-version
+nvm use --lts
+node --version
+```
+
 * Install the network
 
 ```sh
