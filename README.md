@@ -85,6 +85,10 @@ Here are my used/defined **UML** sterotypes:
 
 ![simplified visualization](./static/images/hyperledger-cto-fitcoins.png)
 
+_Note:_ 
+
+The **logic* for this model is implemented in the [./lib/logic.js](https://github.com/thomassuedbroecker/Using-Blockchain-to-Track-fitness-Rewards/blob/master/wolfpack-fitclub-fitcoin/lib/logic.js)
+
 ---
 
 ## Architecture <a name="part003"></a>
