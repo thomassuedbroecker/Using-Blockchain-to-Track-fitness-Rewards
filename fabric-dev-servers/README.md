@@ -65,6 +65,7 @@ From within the fabric-dev-servers directory, run the following command to start
 ```
 
 _Note:_ If this is the **first time** starting the server, you will also need to run the following command to load the [Admin card](https://hyperledger.github.io/composer/v0.16/playground/id-cards-playground) to the network.**
+
 ```sh
 ./createPeerAdminCard.sh
 ```
@@ -74,6 +75,6 @@ From within the fabric-dev-servers directory, run the following command to start
 ./stopFabric.sh
 ```
 
-Congratulations! You now have a working Hyperledger Fabric and Composer environment.
+**Congratulations!** You now have a working Hyperledger Fabric and Composer environment.
 
 Next, you can [Build and deploy the Fitcoin Blockchain Network](../wolfpack-fitclub-fitcoin/README.md)
