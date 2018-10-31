@@ -64,13 +64,13 @@ From within the fabric-dev-servers directory, run the following command to start
 ./startFabric.sh
 ```
 
-_Note:_ If this is the **first time** starting the server, you will also need to run the following command to load the [Admin card](https://hyperledger.github.io/composer/v0.16/playground/id-cards-playground) to the network.**
+_Note:_ If this is the **first time** starting the server, you will also need to run the following command to load the [Admin card](https://hyperledger.github.io/composer/v0.16/playground/id-cards-playground) to the **network**.
 
 ```sh
 ./createPeerAdminCard.sh
 ```
 
-From within the fabric-dev-servers directory, run the following command to start the servers.
+From within the **fabric-dev-servers** directory, run the following command to start the servers.
 ```sh
 ./stopFabric.sh
 ```
