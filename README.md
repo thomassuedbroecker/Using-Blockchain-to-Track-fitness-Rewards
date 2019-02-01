@@ -81,7 +81,7 @@ Here are my used/defined **UML** sterotypes:
 * **transaction** is represented as an UML use case
 * **participant** is represented as an UML actor
 * **UML association** does represent the dependency inside an transaction to a participant.
-* **UML gernalization** does represent the extend for an participant.
+* **UML generalization** does represent the extend for an participant.
 
 ![simplified visualization](./static/images/hyperledger-cto-fitcoins.png)
 
@@ -145,7 +145,7 @@ The following steps do contain the steps to install the given **technical pre-re
 1. Login as a normal user, rather than root.
 2. Do not su to root.
 3. When installing prerequisites, use curl, then unzip using sudo.
-4. Run prereqs-ubuntu.sh as a normal user. It may prompt for root password as some of it's actions are required to be run as root.
+4. Run `prereqs-ubuntu.sh` as a normal user. It may prompt for root password as some of it's actions are required to be run as root.
 5. Do not use npm with sudo or su to root to use it.
 6. Avoid installing node globally as root.
 
